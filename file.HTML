@@ -12,11 +12,13 @@
     background-color: pink;
  }
 header {
-    background-color: rgb(183, 96, 245)
+    background-color: rgb(183, 96, 245);
 }
 nav {
-    background-color: lightpink
-;
+    background-color: lightpink;
+position: sticky;
+top: 0;
+z-index: 2;
 }
 #intro {
     background-color: yellow;
@@ -80,6 +82,9 @@ color: red;
         padding: 5px;
         border-radius: 5px;
         border: none;
+        position: fixed;
+        right: 50px;
+        bottom: 40px;
     }
 ul{
     list-style-type:none;
@@ -128,6 +133,12 @@ footer {
 }
 ol li {
     margin-bottom: 20px;
+}
+#book-reviews p,
+#book-reviews h3 {
+    position: relative;
+    left: 40%;
+    width: 400px;
 }
 </style>
 </head>
